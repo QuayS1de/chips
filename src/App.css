@@ -1,0 +1,24 @@
+#root {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px 16px;
+  overflow-x: hidden;
+}
+
+.main-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  overflow-x: hidden;
+  text-align: left;
+}

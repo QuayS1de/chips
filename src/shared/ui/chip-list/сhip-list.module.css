@@ -1,0 +1,23 @@
+.chip-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.popover-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: 100%;
+}
+
+.popover-chip-button {
+  max-width: 200px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
